@@ -4,7 +4,7 @@
     themeFile = "Dracula";
     shellIntegration.enableFishIntegration = true;
     settings = {
-      font_family = "Iosevka NFM";
+      font_family = "Miracode";
       font_size = 12.0;
       enable_audio_bell = "no";
       shell_integration = "enabled";

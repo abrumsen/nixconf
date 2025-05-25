@@ -2,6 +2,9 @@
   programs.fuzzel = {
     enable = true;
     settings = {
+      main = {
+        font = "Miracode";
+      };
       colors = {
         background = "282a36ff";
         text = "f8f8f2ff";
