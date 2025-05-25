@@ -53,6 +53,14 @@
       enable = true;
       terminal = "kitty";
     };
+    nh = {
+      enable = true;
+      clean = {
+        enable = true;
+        extraArgs = "--keep 10";
+      };
+      flake = "/home/abrumsen/nixconf";
+    };
   };
 
   services.xserver = {
