@@ -104,7 +104,6 @@
 
   fonts.packages = with pkgs; [
     nerd-fonts.fira-code
-    miracode
   ];
 
   system.stateVersion = "24.11";

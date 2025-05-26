@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       main = {
-        font = "Miracode";
+        font = "FiraCode Nerd Font";
       };
       colors = {
         background = "282a36ff";

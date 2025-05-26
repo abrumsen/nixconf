@@ -4,7 +4,7 @@
     themeFile = "Dracula";
     shellIntegration.enableFishIntegration = true;
     settings = {
-      font_family = "Miracode";
+      font_family = "FiraCode Nerd Font";
       font_size = 12.0;
       enable_audio_bell = "no";
       shell_integration = "enabled";
