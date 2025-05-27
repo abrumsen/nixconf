@@ -39,15 +39,15 @@
       "Mod+Dead_Circumflex".action = consume-or-expel-window-left;
       "Mod+Dollar".action = consume-or-expel-window-right;
 
-      "Mod+Left".action = focus-column-left;
-      "Mod+Right".action = focus-column-right;
-      "Mod+Up".action = focus-window-up;
-      "Mod+Down".action = focus-window-down;
+      "Mod+H".action = focus-column-left;
+      "Mod+L".action = focus-column-right;
+      "Mod+K".action = focus-window-up;
+      "Mod+J".action = focus-window-down;
 
-      "Mod+Shift+Left".action = move-column-left;
-      "Mod+Shift+Right".action = move-column-right;
-      "Mod+Shift+Up".action = move-window-up;
-      "Mod+Shift+Down".action = move-window-down;
+      "Mod+Shift+H".action = move-column-left;
+      "Mod+Shift+L".action = move-column-right;
+      "Mod+Shift+K".action = move-window-up;
+      "Mod+Shift+J".action = move-window-down;
 
       "Mod+Page_Up".action = focus-workspace-up;
       "Mod+Page_Down".action = focus-workspace-down;
@@ -76,15 +76,15 @@
       "Mod+Ctrl+Page_Up".action = move-workspace-up;
       "Mod+Ctrl+Page_Down".action = move-workspace-down;
 
-      "Mod+Ctrl+Left".action = focus-monitor-left;
-      "Mod+Ctrl+Right".action = focus-monitor-right;
-      "Mod+Ctrl+Up".action = focus-monitor-up;
-      "Mod+Ctrl+Down".action = focus-monitor-down;
+      "Mod+Ctrl+H".action = focus-monitor-left;
+      "Mod+Ctrl+L".action = focus-monitor-right;
+      "Mod+Ctrl+K".action = focus-monitor-up;
+      "Mod+Ctrl+J".action = focus-monitor-down;
 
-      "Mod+Shift+Ctrl+Left".action = move-column-to-monitor-left;
-      "Mod+Shift+Ctrl+Right".action = move-column-to-monitor-right;
-      "Mod+Shift+Ctrl+Up".action = move-column-to-monitor-up;
-      "Mod+Shift+Ctrl+Down".action = move-column-to-monitor-down;
+      "Mod+Shift+Ctrl+H".action = move-column-to-monitor-left;
+      "Mod+Shift+Ctrl+L".action = move-column-to-monitor-right;
+      "Mod+Shift+Ctrl+K".action = move-column-to-monitor-up;
+      "Mod+Shift+Ctrl+J".action = move-column-to-monitor-down;
     };
   };
 }
