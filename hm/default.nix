@@ -1,5 +1,6 @@
 {pkgs, ...}: {
   imports = [
+    ./fastfetch/default.nix
     ./fish.nix
     ./freetube.nix
     ./fuzzel.nix
@@ -9,6 +10,7 @@
     ./mako.nix
     ./niri/default.nix
     ./waybar/default.nix
+    ./zathura.nix
   ];
   home = {
     username = "abrumsen";
@@ -24,7 +26,6 @@
       xh
       tio
       p7zip
-      fastfetch
       ripgrep
       jq
       nmap
@@ -38,7 +39,6 @@
       darkhttpd
       imv
       slides
-      evince
       brightnessctl
       ciscoPacketTracer8
       spotify-player
