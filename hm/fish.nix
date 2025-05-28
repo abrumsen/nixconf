@@ -1,6 +1,9 @@
 {
   programs.fish = {
     enable = true;
+    shellAliases = {
+      ask = "tgpt";
+    };
     shellInit = ''
       set fish_greeting
       set -x EDITOR nvim

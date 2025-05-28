@@ -42,6 +42,7 @@
       brightnessctl
       ciscoPacketTracer8
       spotify-player
+      tgpt
     ];
     stateVersion = "25.11";
   };
