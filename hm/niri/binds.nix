@@ -2,7 +2,7 @@
   programs.niri.settings = {
     input = {
       keyboard.xkb.layout = "be";
-      mouse.accel-speed = -0.5;
+      mouse.accel-speed = -0.8;
     };
     binds = with config.lib.niri.actions; {
       # Management
