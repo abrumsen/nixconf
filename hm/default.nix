@@ -43,6 +43,7 @@
       ciscoPacketTracer8
       spotify-player
       tgpt
+      caprine
     ];
     stateVersion = "25.11";
   };
