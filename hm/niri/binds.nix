@@ -7,7 +7,7 @@
     binds = with config.lib.niri.actions; {
       # Management
       "Mod+Colon".action = show-hotkey-overlay;
-      "Mod+Shift+E".action = quit;
+      "Mod+Shift+E".action.spawn = ["~/nixconf/scripts/powermenu.sh"];
       # Applications
       "Mod+Return".action.spawn = "kitty";
       "Mod+P".action.spawn = "fuzzel";
