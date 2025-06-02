@@ -44,6 +44,7 @@
       spotify-player
       tgpt
       caprine
+      mongodb-compass
     ];
     stateVersion = "25.11";
   };
