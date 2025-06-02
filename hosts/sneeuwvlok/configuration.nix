@@ -14,6 +14,8 @@
 
   security.polkit.enable = true;
 
+  virtualisation.docker.enable = true;
+
   networking = {
     hostName = "sneeuwvlok";
     networkmanager.enable = true;
@@ -24,7 +26,7 @@
 
   hardware.bluetooth = {
     enable = true;
-    powerOnBoot = true;
+    powerOnBoot = false;
   };
   services.blueman.enable = true;
 
@@ -35,7 +37,7 @@
   users.users.abrumsen = {
     isNormalUser = true;
     description = "Adriaan Brumsen";
-    extraGroups = ["networkmanager" "wheel" "dialout" "wireshark"];
+    extraGroups = ["networkmanager" "wheel" "dialout" "wireshark" "docker"];
     shell = pkgs.fish;
   };
 
