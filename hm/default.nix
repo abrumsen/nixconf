@@ -26,9 +26,13 @@
       xh
       tio
       p7zip
+      unzip
       ripgrep
       jq
       nmap
+      mtr
+      gping
+      doggo
       tree
       btop
       nautilus
@@ -43,8 +47,8 @@
       ciscoPacketTracer8
       spotify-player
       tgpt
+      tldr
       caprine
-      mongodb-compass
     ];
     stateVersion = "25.11";
   };
