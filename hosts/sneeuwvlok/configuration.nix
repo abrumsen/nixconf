@@ -67,9 +67,9 @@
 
   services.xserver = {
     enable = true;
-    displayManager.gdm.enable = true;
     xkb.layout = "be";
   };
+  services.displayManager.gdm.enable = true;
 
   services.gvfs.enable = true;
 
