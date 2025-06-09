@@ -12,6 +12,7 @@
       css.enable = true;
       nix.enable = true;
       python.enable = true;
+      haskell.enable = true;
       java.enable = true;
       r.enable = true;
     };
