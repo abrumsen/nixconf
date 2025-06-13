@@ -49,6 +49,7 @@
       tgpt
       tldr
       caprine
+      azure-cli
     ];
     stateVersion = "25.11";
   };
