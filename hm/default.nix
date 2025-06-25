@@ -44,7 +44,7 @@
       imv
       slides
       brightnessctl
-      ciscoPacketTracer8
+      # ciscoPacketTracer8
       spotify-player
       tgpt
       tldr
