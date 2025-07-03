@@ -8,6 +8,7 @@
       # Management
       "Mod+Colon".action = show-hotkey-overlay;
       "Mod+Shift+E".action.spawn = ["~/nixconf/scripts/powermenu.sh"];
+      "Mod+O".action = toggle-overview;
       # Applications
       "Mod+Return".action.spawn = "kitty";
       "Mod+P".action.spawn = "fuzzel";
