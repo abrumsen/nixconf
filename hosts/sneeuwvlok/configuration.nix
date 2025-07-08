@@ -2,6 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../nixos/neovim/default.nix
+    ../../nixos/tailscale.nix
   ];
 
   nix.settings.experimental-features = ["nix-command" "flakes"];
